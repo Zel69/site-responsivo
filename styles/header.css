@@ -37,6 +37,10 @@
 
 }
 
+.container-botao:checked~.container-menu {
+    display: block;
+}
+
 @media sreen and (min-width: 1024px){
     .cabecalho-titulo {
         display: none;
