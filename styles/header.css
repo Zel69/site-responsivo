@@ -42,9 +42,14 @@
     display: block;
 }
 
-.menu-item,x .menu-item-titulo {
+.menu-item, .menu-item-titulo {
     padding: 1em;
     background-color: var(--branco);
+}
+
+.menu-link {
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 1024px){
