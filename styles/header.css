@@ -50,6 +50,7 @@
 .menu-link {
     text-transform: uppercase;
     text-decoration: none;
+    color: var(--azul-degrade);
 }
 
 @media screen and (min-width: 1024px){
