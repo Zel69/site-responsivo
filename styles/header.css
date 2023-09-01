@@ -53,8 +53,9 @@
     color: var(--azul-degrade);
 }
 
-.menu-titulo{
-    color:var(--laranja);
+
+.menu-item-titulo{
+    color: var(--laranja);
 }
 
 @media screen and (min-width: 1024px){
