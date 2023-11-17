@@ -1,15 +1,18 @@
-@import url("styles/header.css");
-@import url("styles/banner.css");
-@import url("carrosel/banner.css");
+@import url("styes/header.css");
+@import url("styes/banner.css");
+@import url("styes/carrossel.css");
 
-{
-    --cor-de-fundo: #EBECEE;
+:root{
+    --cor-de-fundo:#EBECEE;
     --branco: #FFFFFF;
     --azul-degrade: #326589;
     --laranja: #EB9B00;
+    --fonte-prinipal: "Poppins"
 }
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-prinipal);
+    font-size: 16px;
+    font-weight: 400;
 }
-
